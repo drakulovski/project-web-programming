@@ -13,6 +13,7 @@ import com.connect.demo.repository.UserRepository;
 import com.connect.demo.security.jwt.JwtUtils;
 import com.connect.demo.security.services.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.web.servlet.error.AbstractErrorController;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
