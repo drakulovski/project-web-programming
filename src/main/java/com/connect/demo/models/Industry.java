@@ -18,6 +18,7 @@ public class Industry {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
+
     @NotNull
     private String name;
 
