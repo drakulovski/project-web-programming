@@ -6,7 +6,7 @@ import { Input } from 'formik-antd';
 import { API } from '../../api';
 import { IUserLoginParams } from '../../api/Auth';
 import { defaultNotifcation } from '../Notification/Notification';
-import history from '../../Helpers/history';
+import history from '../../helpers/history';
 import styled from 'styled-components';
 
 const ErrorMessage = styled(FormikErrorMessage)`

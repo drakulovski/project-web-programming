@@ -6,7 +6,7 @@ import {
   Field,
   ErrorMessage as FormikErrorMessage,
 } from 'formik';
-import { IJob } from '../../Models/Models';
+import { IJob } from '../../models/Models';
 import { Input, InputNumber, Switch } from 'formik-antd';
 import ReactSelect from 'react-select';
 import * as Yup from 'yup';

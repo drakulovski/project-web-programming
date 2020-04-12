@@ -1,6 +1,6 @@
 /*eslint no-unused-expressions: "error"*/
 import React from 'react';
-import { IJob } from '../../Models/Models';
+import { IJob } from '../../models/Models';
 import {
   Card,
   Col,

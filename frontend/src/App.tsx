@@ -1,5 +1,5 @@
 import React from 'react';
-import history from './Helpers/history';
+import history from './helpers/history';
 import { Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import JobList from './pages/JobList';

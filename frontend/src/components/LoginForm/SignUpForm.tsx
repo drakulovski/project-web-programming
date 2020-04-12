@@ -12,7 +12,7 @@ import ReactSelect from 'react-select';
 import * as Yup from 'yup';
 import { IUserSignUpParams } from '../../api/Auth';
 import { defaultNotifcation } from '../Notification/Notification';
-import history from '../../Helpers/history';
+import history from '../../helpers/history';
 import styled from 'styled-components';
 
 const ErrorMessage = styled(FormikErrorMessage)`

@@ -1,6 +1,6 @@
 import { AxiosService } from '../config';
 import { Endpoints } from '../endpoints';
-import { IJob, IGetJobs, IGetJob, IGetJobsParams } from '../../Models/Models';
+import { IJob, IGetJobs, IGetJob, IGetJobsParams } from '../../models/Models';
 
 export class JobApi {
   constructor(private axios: AxiosService) {}

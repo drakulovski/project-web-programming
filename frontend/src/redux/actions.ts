@@ -8,7 +8,7 @@ import {
   IGetJob,
   IGetCategories,
   IGetIndustries,
-} from '../Models/Models';
+} from '../models/Models';
 
 export const GetJobs = action('GetJobs', payload<IGetJobs>());
 export const GetJob = action('GetJob', payload<IGetJob>());

@@ -7,7 +7,7 @@ import {
   RiseOutlined,
   LogoutOutlined,
 } from '@ant-design/icons';
-import history from '../../Helpers/history';
+import history from '../../helpers/history';
 import { API } from '../../api';
 import { defaultNotifcation } from '../Notification/Notification';
 import FastField from '../FastField/FastField';

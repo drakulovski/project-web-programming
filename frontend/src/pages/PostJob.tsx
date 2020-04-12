@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IJob } from '../Models/Models';
+import { IJob } from '../models/Models';
 import { connect } from 'react-redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { postJobActions, postJob } from '../redux/jobReducer/jobThunks';
@@ -8,7 +8,7 @@ import { AppState } from '../redux/store';
 import { API } from '../api';
 import JobForm from '../components/JobForm/JobForm';
 import { defaultNotifcation } from '../components/Notification/Notification';
-import history from '../Helpers/history';
+import history from '../helpers/history';
 
 type Props = ILinkDispatchProps & ILinkStateProps;
 interface State {}

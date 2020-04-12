@@ -6,7 +6,7 @@ import {
   CategoriesFetching,
   CategoriesErrors,
 } from '../actions';
-import { ICategory, IBaseReduxState } from '../../Models/Models';
+import { ICategory, IBaseReduxState } from '../../models/Models';
 interface ICategoryReducer extends IBaseReduxState {
   data: ICategory | ICategory[];
 }

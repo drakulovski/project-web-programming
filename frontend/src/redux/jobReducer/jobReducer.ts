@@ -1,7 +1,7 @@
 import { Action } from 'redux';
 import { isType } from 'ts-action';
 import { GetJob, GetJobs, JobsFetching, JobsErrors, PostJob } from '../actions';
-import { IJob, IBaseReduxState } from '../../Models/Models';
+import { IJob, IBaseReduxState } from '../../models/Models';
 interface IJobReducer extends IBaseReduxState {
   data: IJob | IJob[];
   pageNo: number;

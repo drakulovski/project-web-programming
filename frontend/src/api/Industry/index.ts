@@ -1,6 +1,6 @@
 import { AxiosService } from '../config';
 import { Endpoints } from '../endpoints';
-import { IIndustry, IGetIndustries } from '../../Models/Models';
+import { IIndustry, IGetIndustries } from '../../models/Models';
 
 export class IndustryApi {
   constructor(private axios: AxiosService) {}

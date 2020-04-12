@@ -1,6 +1,6 @@
 import { AxiosService } from '../config';
 import { Endpoints } from '../endpoints';
-import { ICategory, IGetCategories } from '../../Models/Models';
+import { ICategory, IGetCategories } from '../../models/Models';
 
 export class CategoryApi {
   constructor(private axios: AxiosService) {}

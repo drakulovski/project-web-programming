@@ -6,7 +6,7 @@ import {
   IndustriesFetching,
   IndustriesErrors,
 } from '../actions';
-import { IIndustry, IBaseReduxState } from '../../Models/Models';
+import { IIndustry, IBaseReduxState } from '../../models/Models';
 interface IIndustryReducer extends IBaseReduxState {
   data: IIndustry | IIndustry[];
 }

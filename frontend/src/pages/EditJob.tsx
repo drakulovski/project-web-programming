@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
-import { IJob } from '../Models/Models';
+import { IJob } from '../models/Models';
 import { connect } from 'react-redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { postJobActions, getJob } from '../redux/jobReducer/jobThunks';
@@ -9,7 +9,7 @@ import { AppState } from '../redux/store';
 import { API } from '../api';
 import JobForm from '../components/JobForm/JobForm';
 import { defaultNotifcation } from '../components/Notification/Notification';
-import history from '../Helpers/history';
+import history from '../helpers/history';
 import { JobsFetching } from '../redux/actions';
 import { Spin } from 'antd';
 

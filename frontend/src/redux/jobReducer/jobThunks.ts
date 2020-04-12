@@ -1,7 +1,7 @@
 import { Dispatch } from 'redux';
 import { JobsErrors, GetJobs, GetJob, JobsFetching, PostJob } from '../actions';
 import { API } from '../../api';
-import { IJob, IGetJobsParams } from '../../Models/Models';
+import { IJob, IGetJobsParams } from '../../models/Models';
 
 export type getJobsActions =
   | ReturnType<typeof GetJobs>

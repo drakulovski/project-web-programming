@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IJob } from '../Models/Models';
+import { IJob } from '../models/Models';
 import { Link } from 'react-router-dom';
 import {
   Row,

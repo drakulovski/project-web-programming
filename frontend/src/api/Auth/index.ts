@@ -1,6 +1,6 @@
 import { AxiosService } from '../config';
 import { Endpoints } from '../endpoints';
-import { IUser } from '../../Models/Models';
+import { IUser } from '../../models/Models';
 
 export interface IUserLoginParams extends IUser {
   password: string;

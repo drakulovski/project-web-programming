@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactSelect from 'react-select';
-import { IJob, IGetJobsParams } from '../Models/Models';
+import { IJob, IGetJobsParams } from '../models/Models';
 import DisplayJobList from '../components/DisplayJobList/DisplayJobList';
 import { Row, Pagination, Col, Spin } from 'antd';
 import { getJobs, getJobsActions } from '../redux/jobReducer/jobThunks';
