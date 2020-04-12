@@ -84,4 +84,4 @@ npm run start
 - Систем на закажување интегриран во апликацијата
 - Review на компании
 
-**Created by Marko Drakulovski, 2020**
+**Created by Marko Drakulovski 153115, 2020**
