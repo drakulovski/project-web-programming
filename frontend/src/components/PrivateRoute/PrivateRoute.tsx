@@ -6,8 +6,8 @@ export const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
     render={(props) => {
-      console.log('props', props);
-      // In README the right way of authentication explained, any random value in authToken will allow user to access the wanted route/component
+      // Only mock of auth, any random value in authToken will allow user to access the wanted route/component.
+      // Backend authentication of the user with token is required and if the response is ok we should let the user access the component.
       if (!localStorage.authToken) {
         return <Redirect to={{ pathname: '/login' }} />;
       }
