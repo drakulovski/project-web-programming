@@ -5,6 +5,7 @@ import com.connect.demo.models.Job;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
+import org.springframework.data.domain.Page;
 
 import java.util.List;
 
@@ -12,9 +13,17 @@ import java.util.List;
 @Data
 public class ListJobsResponse {
     @Setter(AccessLevel.NONE)
-    List<Job> jobList;
+    List<Job> data;
 
-    public ListJobsResponse(List<Job> jobList) {
-        this.jobList = jobList;
+    Integer pageNo;
+    Integer lastPage;
+    Long totalElements;
+
+
+    public ListJobsResponse(Page page) {
+        this.data = page.getContent();
+        this.pageNo = page.getPageable().getPageNumber();
+        this.lastPage = page.getTotalPages();
+        this.totalElements = page.getTotalElements();
     }
 }

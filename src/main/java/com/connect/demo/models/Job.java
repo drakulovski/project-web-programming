@@ -18,12 +18,13 @@ public class Job {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
 
     @NotNull
     private String title;
 
     @NotNull
+    @Column(length = 2048)
     private String description;
 
     @NotNull
@@ -36,6 +37,7 @@ public class Job {
     private Boolean availableOnWeekends;
 
     @NotNull
+    @Column(length = 2048)
     private String qualifications;
 
     @NotNull
